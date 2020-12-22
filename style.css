@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+.header {
+    padding: 25px 0;
+    background-color: #1d2126;
+    height: 80px;
+}
+.conteiner{
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+@media(max-width:767px){
+    .conteiner{
+        width: 100%;
+    }
+}
+.row:after,.menu:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.col-md-3 {
+    width: 25%;
+}
+.col-md-6 {
+    width: 50%;
+}
+.logo{
+    position: relative;
+}
+@media(max-width: 767px){
+    .logo{
+        text-align: center;
+    }
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    
+}
+.nava{
+    text-decoration: none;
+    color: #a4aead;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    
+    
+}
+.navmodest{
+    
+    margin-right: 30px;
+}
+
+/*----search----*/
+.search{
+    display: flex;
+    justify-content: flex-end;
+    width: 195px;
+    height: 30px;
+    border: 1px solid #3c4147;
+
+}
+.col-search{
+    width: 150px;
+    height: 23px;
+    background: transparent;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.search-button{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: transparent;
+}
+.lupa{
+    position: relative;
+}
+
+/*----slide----*/
+
+.slide{
+    height: 660px;
+    background-image: url("flower.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.welcome{
+    width: 1130px;
+    height: 35px;
+    display: flex;
+    align-items: flex-start;
+}
+.marketplace{
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
+}
+.lorem{
+    width: 1130px;
+    height: 52px;
+    display: flex;
+    align-items: flex-start;
+}
+.ipsum{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ccd0d7;
+    line-height: 26px;
+}
+.view{
+    background: transparent;
+    width: 120px;
+    height: 40px;
+    border: 2px solid white;
+    
+    border-radius: 4px;
+}
+.tour{
+    text-decoration: none;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+}
+.view:hover{
+    background-color: #23b7a4;
+    border: none;
+}
+
+
