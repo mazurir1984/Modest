@@ -11,17 +11,17 @@
 <body>
     <header class="header">
         <div class="conteiner">
-            <div class="row">
-                <div class="col-xs-12 col-md-2">
+            <div class="row header-row">
+                <div class="col-md-2">
                     <div class="logo">
                         <a href="" class="logomodest">
                             <img src="modest.png" class="modest">
                         </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-8">
+                <div class="col-md-8">
                     <nav class="navigation">
-                        <ul class="menu">
+                        <ul class="menu navigationnn hidden-menu">
                             <li class="navmodest"><a href="" class="nava">HOME</a></li>
                             <li class="navmodest"><a href="" class="nava">ABOUT</a></li>
                             <li class="navmodest"><a href="" class="nava">WORK</a></li>
@@ -30,6 +30,11 @@
                             <li class="navmodest"><a href="" class="nava">FEATURES</a></li>
                             <li class="navmodest"><a href="" class="nava">CONTACT</a></li>
                         </ul>
+                        <div class="nav-mobile-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </nav>
                 </div>
                 <div class="col-xs-12 hide-xs col-md-2">
@@ -140,6 +145,11 @@
                     <div class="people">
                         <div class="people1">
                             <img src="gloriya.png" class="comand">
+                            <div class="threeseties">
+                                <div class="onetwitter"></div>
+                                <div class="twofacebook"></div>
+                                <div class="threeinsta"></div>
+                            </div>
                             <div class="grey">
                                 <p class="name">GLORIA BROMLEY</p>
                                 <p class="position">CEO and Founder</p>
@@ -357,12 +367,42 @@
         <div class="conteiner">
             <div class="row">
                 <div class="col-xs-12 col-md-6">
-                    <div class="contact">
-                        <p class="contactinform">CONTACT INFORMATION</p>
-                    </div>
-                    <div class="contacttext">
-                        <p class="contactlorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nisi metus, tristique nec color non, ornare sagittis dolor. Nulla vestibulum lacus sed molestie gravida.</p>
-                        <p class="cras">Cras fermentum elit quis magna congue, <span class="sodales">vel sodales</span> arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus</p>
+                    <div class="colContactButton">
+                        <div class="colContact">
+                            <div class="contact">
+                                <p class="contactinform">CONTACT INFORMATION</p>
+                            </div>
+                            <div class="contacttext">
+                                <p class="contactlorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed nisi metus, tristique nec color non, ornare sagittis dolor. Nulla vestibulum lacus sed molestie gravida.</p>
+                                <p class="cras">Cras fermentum elit quis magna congue, <span class="sodales">vel sodales</span> arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus</p>
+                            </div>
+                        </div>
+                        <div class="sendMessage">
+                            <div class="modal">
+                                <div class="modal-block">
+                                    <form action="" class="formModal">
+                                        <div class="btn-close">X</div>
+                                        <div class="nameEmail">
+                                            <div class="form-fields">
+                                                <p class="pForm">YOUR NAME</p>
+                                                <input type="text" name="name" class="inputForm">
+                                            </div>
+                                            <div class="form-fields">
+                                                <p class="pForm">YOUR EMAIL</p>
+                                                <input type="email" name="login" class="inputForm">
+                                            </div>
+                                        </div>
+                                        <div class="form-fieldsMessage">
+                                            <p class="pForm">YOUR MESSAGE</p>
+                                            <textarea name="text" class="textMessage"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="buttonSend">
+                                <button class="send">SEND MESSAGE</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -389,6 +429,6 @@
             </div>
         </div>
     </footer>
-    
+    <script src="app.js"></script> 
 </body>
 </html>
